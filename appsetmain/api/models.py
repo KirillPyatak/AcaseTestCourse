@@ -2,7 +2,7 @@
 from django.db import models
 #уровень сложности курса
 class Difficulty(models.Model):
-    level = models.CharField(max_length=50, choices=[('A1','A2'),('B1','B2')])
+    level = models.CharField(max_length=50, choices=[('A1','a1'),('B1','b1')])
 #Язык курса
 class Language(models.Model):
     name = models.CharField(max_length=50)
